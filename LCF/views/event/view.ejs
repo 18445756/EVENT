@@ -1,0 +1,8 @@
+<%= event.name %>
+<%= event.age %>
+<%= event.id %>
+<br><br>
+<form action="/event/delete/<%= event.id %> " method="POST">
+
+    <button class="btn btn-danger" type="submit"> Delete </button>
+</form>
